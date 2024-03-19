@@ -1,0 +1,99 @@
+/* StyleSheet */
+
+/* This is a body tag */
+body{
+    top:0px;
+    bottom: 0px;
+    background-image:url("https://images.pexels.com/photos/434442/pexels-photo-434442.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:100%;
+    width:100%;
+    position: fixed;
+
+}
+
+/* This is main container class */
+.container{
+    color:white;
+    text-align: center;
+    margin-top:100px;
+    margin-left:520px;
+    background-color: rgb(124, 216, 158);
+    background-image:url("https://images.pexels.com/photos/4947747/pexels-photo-4947747.jpeg");
+    backdrop-filter:drop-shadow(10px 10px 20px black);
+    background-size: cover;
+    width: 500px;
+    height: 550px;
+    border-radius: 12px;
+    box-shadow:5px 5px 10px black;
+    position: fixed;
+    
+}
+
+/* This is a searchbar container */
+.search-bar-container{
+    background-color: rgb(124, 216, 158);
+    border-radius: 10px;
+    width:220px;
+    height:35px;
+    color:white;
+    padding-left: 10px;
+}
+
+
+.search-button-container{
+    font-size: 22px;
+    margin-left:5px;
+    position: absolute;
+    left:305px;
+    top:115px;
+    height:55px;
+    width:55px;
+    cursor:pointer;
+
+}
+.weather-logo-container{
+    font-size: 50px;
+    margin: 10px;
+    padding:20px;
+    box-shadow: 1px 1px 10px rgb(8, 183, 116);
+    border-radius: 10px;
+    opacity: 0.8;
+
+}
+.city-container{
+    font-size: 50px;
+    margin:20px;
+
+}
+
+.temperature-container{
+    font-size: 30px;
+    margin:20px;
+
+}
+.time-and-date-container{
+    font-size: 20px;
+    margin:20px;
+
+}
+
+/* This is a footer style */
+footer{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    bottom:0;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.search-button{
+    border: 1px solid black;
+    background-color: rgb(124, 216, 158);
+    padding: 2px;
+    border-radius: 5px;
+    width: 30px;
+}
